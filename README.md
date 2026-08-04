@@ -23,3 +23,16 @@ Despesas com produtos e serviços ocorre conforme o necessário, o pagamento é 
 
 # Modelo baseado em consumo
 É a forma como os provedores de serviços em nuvem operam, as empresas e usuários pagam conforme a utilização de recursos. São fornecidos preços para cada recurso e serviço, dessa forma se tem maior previsisão de custos e a cobrança é feita com base no uso real.
+
+# Benefícios da Nuvem
+
+## Alta Disponibilidade
+Garantir a disponibilidade máxima, independente de interrupções ou eventos que possam ocorrer. Garantir serviço funcionando sempre que necessário, de acordo com seu SLA (Contrato de Nível de Serviço). Se não for entregue a disponibilidade acordada, a organização recebe um crédito pela indisponibilidade excedida.
+
+## Escalabilidade
+Capacidade de alterar recursos para atender à demanda. Você pode aumentar recursos para lidar com o aumento de demanda (ajustar espaço em disco, memória, CPUs, etc). Você não paga nada além do necessário, somente pelo uso. Se a demanda cair, você pode reduzir custos. É uma escala vertical, se você está desenvolvendo um app e precisa de mais processamento, pode aumentar CPU e RAM à máquina virtual.
+
+## Elasticidade
+Exemplo: Black Friday.
+Se você tem um saldo acentuado e repentido de demanda, sem previsibilidade, seus recursos podem ser expandidos (automaticamente ou manualmente).
+Pode ser adicionadas máquinas virtuais ou contêineres por meio da expansão. Da mesma forma, se reduzir a demanda, os recursos podem ser reduzidos horizontalmente (automático ou manual). Se tiver X% de requisição expande ou x% de requisição reduz.
