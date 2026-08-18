@@ -84,3 +84,31 @@ A responsabilidade vai diminuindo conforme o tipo de serviço
 - Os usuários pagam pelo software que utilizam em um modelo de assinatura;
 
 * Para a prova o que mais importa é entender o nível de gestão de cada tipo de serviço de nuvem
+
+# Arquitetura e Serviços do Azure
+
+## Componentes de arquitetura do Azure
+
+### Regiões e zonas de disponibilidade
+
+- Regiões: 
+
+Regiões são compostas de um ou mais datacenters muito próximos;
+Eles fonrecem flexibilidade e escala para reduzir latência do cliente;
+As regiões preservam a residência dos dados com uma oferta abrangente de conformidade (relacionado a LGPD no caso do Brasil);
+
+Preços variam de acordo com a região
+Importante ter o ambiente mais próximo de onde será utilizado para evitar delay/lentidão
+Nem sempre recursos estão disponíveis para todas as regiões. Comum em casos de recursos que estão como Preview e só depois mudam para GA - General Availability (uso geral).
+
+A Região é formada por um conjunto de datacenters que se comunicam entre si. Costuma-se trabalhar sempre com a ideia de 3 datacenters. Alguns recursos permitem selecionar o datacenter.
+
+- Zonas de disponibilidade (datacenters):
+
+<img width="1302" height="894" alt="image" src="https://github.com/user-attachments/assets/c92e853f-b5cc-48c6-a0ac-43818767de66" />
+
+Fornece proteção contra tempo de inatividade devido a falha do datacenter;
+Separa fisicamente os datacenters dentro da mesma região;
+Cada datacenter é equipado com alimentação, resfriamento e rede independentes;
+
+### Assinaturas e grupos de recursos
